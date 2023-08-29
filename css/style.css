@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+@import url(
+    'https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=' +
+    'Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap'
+);
+
+body{font-family: 'Lato', 'Raleway', sans-serif; color: #333333;}
+
+header{padding: 26px 80px; border-bottom: 2px solid #000; display: flex; flex-direction: row; justify-content: space-between; align-items: flex-end;}
+header h1 a img{width: 60px; height: 60px;}
+header nav ul{display: flex; flex-direction: row; position: relative;}
+header nav ul li:not(:last-child){margin-right: 30px; letter-spacing: -0.5px; font-size: 18px;}
+header nav ul li:first-child::before{content: ''; width: 75px; height: 6px; background: #000; position: absolute; top: 46px; left:-17px;}
+header button{color: #fff; background: #13829B; padding: 12px 32px; border-radius: 8px;}
+
+
+main .container-wrap{ width: 1728px; display: flex; flex-direction: column;}
+main .section{position: relative; display: flex; flex-direction: row;}
+main .section .left-box{width: 100%; display: flex; flex-direction: column; margin-top: 140px; margin-left: 80px;}
+main .section .left-box .s-tit{display: flex; flex-direction: row; align-items: center; margin-bottom: 34px;}
+main .section .left-box .s-tit .solid{width: 17px; height: 2px; background: #13829B; margin-right: 10px;}
+main .section .left-box .s-tit p{font-family: 'Raleway' sans-serif; color: #13829B; font-size: 18px; letter-spacing: -0.5px;}
+main .section .left-box .m-tit p:first-child{font-size: 64px; font-weight: 600; letter-spacing: -1px; line-height: 1.1; margin-bottom: 30px;}
+main .section .left-box .m-tit p:last-child{font-size: 18px; margin-bottom: 42px;}
+main .section .left-box .m-tit span{color: #13829B;}
+main .section .left-box .submit-box,
+main .section .left-box .submit-box .more{display: flex; flex-direction: row; align-items: center; letter-spacing: -0.5px; font-weight: 500;} 
+main .section .left-box .submit-box a{display: inline-block; margin-right: 60px; background: #13829B; color: #fff; padding: 24px 56px; font-size: 20px; border-radius: 8px;}
+main .section .left-box .submit-box .more img{display: inline-block; margin-right: 17px; width: 48px; height: 48px;}
+main .section .left-box .submit-box .more>p{font-size: 18px; }
+main .section .right-box{position: relative; width: 100%; height: auto; overflow: hidden;}
+main .section .right-box .bg-color{position: absolute; top: 478px; right: 0; width: 886px; height: 313px; background: #FCC29A;}
+main .section .right-box .bg{position: absolute; top: 17px; right: 0; width: 608px; height: 696px; background-image: url('../img/clo02.png'); background-repeat: no-repeat; background-size: contain;}
+main .section .right-box .bg-cd{position: absolute; top: 211px; right: 553px; width: 233px; height: 223px; filter: grayscale(100%); background-image: url('../img/people.png'); background-repeat: no-repeat; background-size: contain;}
+main .section .right-box .box{position: absolute; top: 404px; right: 300px; width: 218px; height: 218px; background: #29D2E4; mix-blend-mode:multiply;
+    filter:contrast(1.5);}
+
+
+main .section02{position: relative; margin-top: 97px; letter-spacing: -0.5px;}
+main .section02 .top-box{display: flex; flex-direction: row; align-items: center; justify-content: center; margin-bottom: 136px;}
+main .section02 .top-box .box{position: relative; display: flex; flex-direction: column; align-items: center; align-items: center; margin-right: 228px;}
+main .section02 .top-box .box:not(:last-child)::before{content: ''; width: 2px; height: 139px; background: #FCC29A; position: absolute; top: 0; left: 264px;}
+main .section02 .top-box .box img{display: inline-block; margin-bottom: 27px;}
+main .section02 .top-box .box>p{margin-bottom: 20px; font-size: 24px; font-weight: 600;}
+main .section02 .top-box .more{display: flex; flex-direction: row; align-items: center;}
+main .section02 .top-box .more>p{margin-right: 8px; font-size: 16px; text-transform: uppercase;}
+main .section02 .top-box .more>img{margin-bottom: auto;}
+
+
+main .section02 .bottom-box{position: relative; margin-left: 80px; display: flex; flex-direction: column; flex-wrap: wrap; }
+main .section02 .bottom-box .box-wrap{display: flex; flex-direction: row; align-items: center;}
