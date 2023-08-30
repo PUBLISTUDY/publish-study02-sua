@@ -96,9 +96,8 @@ main .section03 .content-wrap .bottom-box{padding-bottom: 52px; text-align: cent
 main .section03 .content-wrap .bottom-box button{ background: #fff; color: #13829B; border-radius: 8px; padding: 24px 56px;}
 
 
-main .section04{position: relative; top: 1768px; display: flex; flex-direction: row; padding-bottom: 523px;}
-main .section04 .top-box{margin-bottom: 117px;}
-main .section04 .top-box .left-box{margin-left: 112px; margin-top: 406px; letter-spacing: -0.5px;}
+main .section04{position: relative; top: 1768px; display: flex; flex-direction: row;}
+main .section04 .top-box .left-box{margin-left: 112px; margin-top: 406px; letter-spacing: -0.5px; font-family: 'Raleway' sans-serif;}
 main .section04 .top-box .left-box .top-box p:first-child{font-size: 48px; font-weight: 600; margin-bottom: 20px;} 
 main .section04 .top-box .left-box .top-box p:last-child{width: 611px; margin-bottom: 42px;}
 main .section04 .top-box .right-box .bg{position: absolute; top: 0; right: 300px; width: 420px; height: 526px; background-image: url('../img/people02.png'); background-size: contain; background-repeat: no-repeat; filter: grayscale(100%); }
@@ -109,5 +108,10 @@ main .section04>.bottom-box{position: absolute; top: 1033px; display: flex; flex
 main .section04>.bottom-box .left-box{margin-right: 80px;}
 main .section04>.bottom-box .left-box .img-box .bg-color{width: 911px; height: 361px; background: #FCC29A; }
 main .section04>.bottom-box .left-box .img-box .bg{position: absolute; top: 107px; left: 122px; width: 649px; height: 433px; background-image: url('../img/call.png'); background-repeat: no-repeat;}
-main .section04>.bottom-box .right-box{display: flex; flex-direction: row; align-items: center;}
-main .section04>.bottom-box .right-box .top-box{width: 611px;}
+main .section04>.bottom-box .right-box{margin-top: 171px; display: flex; flex-direction: column; align-items: center; letter-spacing: -0.5px; font-family: 'Raleway' sans-serif; margin-bottom: 10px;}
+main .section04>.bottom-box .right-box .top-box p:first-child{font-size: 48px; font-weight: 600;}
+main .section04>.bottom-box .right-box .top-box p:last-child{font-size: 18px;line-height: 1.5;}
+main .section04>.bottom-box .right-box .top-box>button{background: #13829B; color: #fff;  margin-top: 10px; border-radius: 8px; padding: 24px 56px; margin-bottom: 38px;}
+main .section04>.bottom-box .right-box .bottom-box{display: flex; flex-direction: row; justify-content: flex-start; margin-right: auto; margin-bottom: 523px;}
+main .section04>.bottom-box .right-box .bottom-box img{display: inline-block; margin-right: 30px;}
+main .section04>.bottom-box .right-box .bottom-box .bg-color{position: absolute; left: 1563px; top: 361px; width: 165px; height: 144px; background: #29D2E4;}
